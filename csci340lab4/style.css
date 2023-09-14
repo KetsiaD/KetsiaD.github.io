@@ -1,8 +1,4 @@
-.paragraph {
-    background-color: aqua;
-    padding: 30px;
-    border: 10px;
-}
+
 body{
     background-image:url("images/background.jpeg");
 }
@@ -15,14 +11,18 @@ h1{
     font-family: 'Black Ops One', cursive;
     color: beige;
 }
-#figli{
-    width: 100%;
-    height: auto;
-    flex-grow: 20;
-}
 
 section .row img {
-    margin: 0 0 40px;
     width: 100%;
     height: 300px;
-  }
+}
+
+figcaption{
+    font-family: 'Bree Serif', serif;
+    color: beige;
+}
+
+#images{
+    margin-top: 70px;
+}
+
