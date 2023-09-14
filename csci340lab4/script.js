@@ -5,7 +5,9 @@ $(document).ready(function() {
         url: "https://api.thecatapi.com/v1/images/search",
         success: function(results) {
           console.log(results[0]["url"]);
-          $('#dog').attr("src", results[0]["url"]);
+          $('#cat').css("height", "390px")
+          $('#cat').attr("src", results[0]["url"]);
+          console.log(results[0]["height"]);
     
         },
         error: function(xhr,status,error) {
@@ -19,7 +21,6 @@ $(document).ready(function() {
           console.log(results["data"][0]);
           var apianswer = results["data"][0];
           document.getElementById("catdescr").innerHTML = apianswer
-          $('#catdescr').attr("src", results["data"][0]);
         },
         error: function(xhr,status,error){
           console.log(error)
