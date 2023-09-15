@@ -26,3 +26,16 @@ figcaption{
     margin-top: 70px;
 }
 
+#title2{
+    font-family: 'Fjalla One', sans-serif;
+    color:beige;
+}
+
+.jumbotron{
+    background-color: rgb(42, 77, 77);
+}
+
+#clicker2{
+    background-color:rgb(74, 102, 102) ;
+    font-weight: 500;
+}
