@@ -24,6 +24,7 @@ figcaption{
 
 #images{
     margin-top: 70px;
+    display: none;
 }
 
 #title2{
@@ -36,6 +37,21 @@ figcaption{
 }
 
 #clicker2{
+    background-color:rgb(74, 102, 102) ;
+    font-weight: 500;
+}
+#fade2{
+    display: none;
+}
+#cathistory{
+    background-color:rgb(74, 102, 102) ;
+    font-weight: 500;
+}
+#adoptingcats{
+    background-color:rgb(74, 102, 102) ;
+    font-weight: 500;
+}
+#interestingfacts{
     background-color:rgb(74, 102, 102) ;
     font-weight: 500;
 }

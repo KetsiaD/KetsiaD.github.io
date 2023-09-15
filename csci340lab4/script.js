@@ -29,6 +29,23 @@ $(document).ready(function() {
       )
     });
     $('#clicker2').click(function(){
+      $hiddens = $("#images");
+      $hiddens2 = $("#fade2")
+      if ($hiddens.is(":hidden")){
+        $hiddens.delay(500).fadeIn();
+      }
+      if($hiddens2.is(":hidden")){
+        $hiddens2.delay(500).fadeIn();
+      }
       
+    });
+    $("#cathistory").click(function(){
+
+    });
+    $("#interestingfacts").click(function(){
+
+    });
+    $("#adoptingcats").click(function(){
+
     });
   });
