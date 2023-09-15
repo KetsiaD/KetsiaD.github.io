@@ -40,12 +40,15 @@ $(document).ready(function() {
       
     });
     $("#cathistory").click(function(){
+      window.location.href = "https://en.wikipedia.org/wiki/Cat";
 
     });
     $("#interestingfacts").click(function(){
+      window.location.href = "https://www.mygavet.com/services/cats/blog/50-cat-facts-you-probably-didnt-know";
 
     });
     $("#adoptingcats").click(function(){
+      window.location.href ="https://www.petfinder.com";
 
     });
   });
